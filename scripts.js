@@ -1,29 +1,36 @@
 // FOR ALL EXERCISES WHERE YOU WORK WITH AN ARRAY, PRINT THE RESULTS AT EACH STEP!
+//console.log at every step
 
 /********************** Exercise 1 **********************/
 
 // Go to a website of your choosing (a news site or a shopping site). Find examples of data that might be stored as arrays. Provide a description of the data below. 
-
-
-
-
+// Answer: Arrays are used to sort and organize data for the purpose of performing operations. example on e-commerece amazon website arrays is used in createImageBitmap.
+//we can use all methods mentioned in the class, we can ChannelMergerNode, list, iterate and performance. 
 
 /********************** Exercise 2 **********************/
 // Create an array of books to be sold in an online store. 
+let book1 = "abc";
+let book2 = "def";
+let book3 = "ghi";
+let book4 = "jkl";
+let book5 = "mno";
 
+let books = ["abc", "def", "ghi", "jkl", "mno"];
+console.log("books");
 
 
 /********************** Exercise 3 **********************/
 const shopping = ["bread", "milk", "cheese", "hummus", "noodles"];
 
 // For the above array, log the string "bread" to the console.
-
+shopping[5-5]; //showing as rice, we spent 15 minutes trying to code bread
 
 // After the following code is run, what will happen? Console log the new array.
 shopping[0] = "rice";
 
 
 // Try changing the value "cheese" to "vegetables" using an index.
+shopping[3] = "vegetables";
 
 // Log the value at index 2. Note that it is NOT the second value! Why is that?
 
