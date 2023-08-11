@@ -23,22 +23,24 @@ console.log("books");
 const shopping = ["bread", "milk", "cheese", "hummus", "noodles"];
 
 // For the above array, log the string "bread" to the console.
-shopping[5-5]; //showing as rice, we spent 15 minutes trying to code bread
+//shopping[5-5]; //showing as rice, we spent 15 minutes trying to code bread
 
 // After the following code is run, what will happen? Console log the new array.
 shopping[0] = "rice";
 
 
 // Try changing the value "cheese" to "vegetables" using an index.
-shopping[3] = "vegetables";
+shopping[2] = "vegetables";
 
 // Log the value at index 2. Note that it is NOT the second value! Why is that?
+//Answer: because index starts from 0
 
 // Log the last value WITHOUT using a set number. That is, do NOT write: `shopping[4]`. You can use the `.length` to figure out what the last index is!
-
+shopping[shopping.length-1];
 // Now write the same code in the square brackets, using the `.length` property to calculate the last index, only with the `gems` array below instead of `shopping`. The solution should give you the last value in ANY array!
 
 const gems = ["ruby", "saphhire", "pearl", "steven", "amethyst", "garnet", "lapis lazuli", "peridot"]
+gems[gems.length-1];
 
 
 /********************** Exercise 4 **********************/
