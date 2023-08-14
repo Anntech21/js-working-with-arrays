@@ -49,19 +49,20 @@ const cities = ["Oakland", "New York"];
 
 
 // Use an array method to add Memphis to the END of the array.
+cities.push("Memphis");
 
 // Use an array method to add Phoenix to the END of the array.
-
+cities.push("Phoenix");
 // Use an array method to add Atlanta to the START of the array.
-
+cities.unshift("Atlanta");
 // Use an array method to add Chicago and Denver to the END of the array with one method call.
-
+cities.push("Chicago","Denver");
 // Use an array method to remove the FIRST element of the array.
-
+cities.shift();
 // Use an array method to remove the LAST element of the array.
-
+cities.pop();
 // Log the final array to the console. It should look like this: ["Oakland", "New York", "Memphis", "Phoenix", "Chicago"]
-
+//console.log(cities);
 
 /********************** Exercise 5 **********************/
 
