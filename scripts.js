@@ -4,7 +4,8 @@
 /********************** Exercise 1 **********************/
 
 // Go to a website of your choosing (a news site or a shopping site). Find examples of data that might be stored as arrays. Provide a description of the data below.
-// Answer: Arrays are used to sort and organize data for the purpose of performing operations. example on e-commerece amazon website arrays is used in createImageBitmap.
+Amazon.com sign in page. Account, product page, chechout page.etc
+Answer: Arrays are used to sort and organize data for the purpose of performing operations. example on e-commerece amazon website arrays is used in createImageBitmap.
 //we can use all methods mentioned in the class, we can ChannelMergerNode, list, iterate and performance.
 
 /********************** Exercise 2 **********************/
@@ -17,7 +18,7 @@ console.log("books");
 const shopping = ["bread", "milk", "cheese", "hummus", "noodles"];
 
 // For the above array, log the string "bread" to the console.
-//shopping[5-5]; //showing as rice, we spent 15 minutes trying to code bread
+console.log(shopping[0]);
 
 // After the following code is run, what will happen? Console log the new array.
 shopping[0] = "rice";
@@ -26,9 +27,9 @@ shopping[0] = "rice";
 shopping[2] = "vegetables";
 
 // Log the value at index 2. Note that it is NOT the second value! Why is that?
-//Answer: because index starts from 0
+Answer: because index starts from 0
 
-console.log(shopping[(2 + 4) / 3]);
+//console.log(shopping[(2 + 4) / 3]);
 
 // Log the last value WITHOUT using a set number. That is, do NOT write: `shopping[4]`. You can use the `.length` to figure out what the last index is!
 console.log(shopping[shopping.length - 1]);
@@ -65,7 +66,7 @@ cities.shift();
 // Use an array method to remove the LAST element of the array.
 cities.pop();
 // Log the final array to the console. It should look like this: ["Oakland", "New York", "Memphis", "Phoenix", "Chicago"]
-//console.log(cities);
+console.log(cities);
 
 /********************** Exercise 5 **********************/
 
@@ -107,7 +108,8 @@ const cityString =
 // Now let's split the array at each comma. How would you create an array with each of the cities as a separate value?
 let cityArray = cityString.split(",");
 console.log(cityArray);
-//cityString.split('Detroit,Atlanta,Birmingham,New Haven,Dallas,San Diego,Portlan');
+
+//cityString.split('Detroit,Atlanta,Birmingham,New Haven,Dallas,San Diego,Portland');
 
 // What is the length of the new array?
 //62
@@ -116,6 +118,7 @@ console.log(cityArray.length);
 // Log the array to the console
 
 console.log(cityArray);
+
 // How would you log the last city in the array to the console?
 
 console.log(cityArray[6]);
