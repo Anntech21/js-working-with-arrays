@@ -94,6 +94,8 @@ console.log(numbers.sort());
 // The following array contains data about a user. How would you log the string 'Python' to the console?
 const userMember = ["Dava Sorbel", 795, ["Python", "JavaScript", "Ruby"]];
 
+console.log(userMember[2][0]);
+
 let result1 = userMember.join("Python", "JavaScript", "Ruby");
 
 // How would you use that array to find the letter J? Remember that you can use indexes with arrays AND strings!
