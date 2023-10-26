@@ -4,8 +4,8 @@
 /********************** Exercise 1 **********************/
 
 // Go to a website of your choosing (a news site or a shopping site). Find examples of data that might be stored as arrays. Provide a description of the data below.
-Amazon.com sign in page. Account, product page, chechout page.etc
-Answer: Arrays are used to sort and organize data for the purpose of performing operations. example on e-commerece amazon website arrays is used in createImageBitmap.
+//Amazon.com sign in page. Account, product page, chechout page.etc
+//Answer: Arrays are used to sort and organize data for the purpose of performing operations. example on e-commerece amazon website arrays is used in createImageBitmap.
 //we can use all methods mentioned in the class, we can ChannelMergerNode, list, iterate and performance.
 
 /********************** Exercise 2 **********************/
@@ -27,7 +27,7 @@ shopping[0] = "rice";
 shopping[2] = "vegetables";
 
 // Log the value at index 2. Note that it is NOT the second value! Why is that?
-Answer: because index starts from 0
+//Answer: because index starts from 0
 
 //console.log(shopping[(2 + 4) / 3]);
 
@@ -94,7 +94,8 @@ console.log(numbers.sort());
 // The following array contains data about a user. How would you log the string 'Python' to the console?
 const userMember = ["Dava Sorbel", 795, ["Python", "JavaScript", "Ruby"]];
 
-console.log(userMember[2][0]);
+let stringPython = userMember[2][0];
+console.log(stringPython);
 
 let result1 = userMember.join("Python", "JavaScript", "Ruby");
 
